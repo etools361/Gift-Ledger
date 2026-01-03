@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1767338591430,
+    "name": "黄建华",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.430272"
+  },
+  {
+    "id": 1767338591430,
+    "name": "刘建军",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431269"
+  },
+  {
+    "id": 1767338591431,
+    "name": "谢伟强",
+    "amount": 1900.0,
+    "amountChinese": "壹仟玖佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431269"
+  },
+  {
+    "id": 1767338591431,
+    "name": "谢雨婷",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431269"
+  },
+  {
+    "id": 1767338591431,
+    "name": "徐龙",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431269"
+  },
+  {
+    "id": 1767338591431,
+    "name": "李文静",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.431269"
+  },
+  {
+    "id": 1767338591431,
+    "name": "董美玲",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "黄芳(表妹)",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "萧娜",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "郑婷(妹妹)",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "王雪(阿姨)",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "程春梅(发小)",
+    "amount": 1400.0,
+    "amountChinese": "壹仟肆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "周晓燕(邻居)",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "谢梦琪",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "王宇航",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "胡文博",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "何秀兰(舅妈)",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591431,
+    "name": "李国栋",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.431820"
+  },
+  {
+    "id": 1767338591432,
+    "name": "梁志勇(发小)",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.432828"
+  },
+  {
+    "id": 1767338591432,
+    "name": "何晓燕",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.432918"
+  },
+  {
+    "id": 1767338591432,
+    "name": "冯国庆",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.433073"
+  },
+  {
+    "id": 1767338591433,
+    "name": "赵诗涵",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.433073"
+  },
+  {
+    "id": 1767338591433,
+    "name": "林志明",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.433073"
+  },
+  {
+    "id": 1767338591433,
+    "name": "朱思远(姑父)",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.433073"
+  },
+  {
+    "id": 1767338591434,
+    "name": "罗博文",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.434497"
+  },
+  {
+    "id": 1767338591434,
+    "name": "赵文静",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.434497"
+  },
+  {
+    "id": 1767338591434,
+    "name": "吴丽",
+    "amount": 1500.0,
+    "amountChinese": "壹仟伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.434497"
+  },
+  {
+    "id": 1767338591434,
+    "name": "韩婉婷(战友)",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.434497"
+  },
+  {
+    "id": 1767338591434,
+    "name": "于天宇",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.434497"
+  },
+  {
+    "id": 1767338591434,
+    "name": "张文博(老师)",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.434497"
+  },
+  {
+    "id": 1767338591435,
+    "name": "孙秀兰(婶婶)",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "林晓东",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "林志明",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "韩诗韵",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "罗志明",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "朱婷",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "宋晓东",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591435,
+    "name": "李娜",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.435496"
+  },
+  {
+    "id": 1767338591437,
+    "name": "罗英",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.437487"
+  },
+  {
+    "id": 1767338591437,
+    "name": "周玲(同学)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.438484"
+  },
+  {
+    "id": 1767338591438,
+    "name": "马倩",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "宋嘉怡",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "韩宇",
+    "amount": 400.0,
+    "amountChinese": "肆佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "张志明(老师)",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "林海燕(同事)",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "朱国栋",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "陈海燕(亲戚)",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "唐思远",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "韩明",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "于国强",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591438,
+    "name": "郭春梅",
+    "amount": 1900.0,
+    "amountChinese": "壹仟玖佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.438517"
+  },
+  {
+    "id": 1767338591439,
+    "name": "郑梦琪",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.439481"
+  },
+  {
+    "id": 1767338591439,
+    "name": "谢慧",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.439481"
+  },
+  {
+    "id": 1767338591439,
+    "name": "陈天宇",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.439481"
+  },
+  {
+    "id": 1767338591439,
+    "name": "徐军伟",
+    "amount": 1100.0,
+    "amountChinese": "壹仟壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.439481"
+  },
+  {
+    "id": 1767338591439,
+    "name": "马明",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.439481"
+  },
+  {
+    "id": 1767338591439,
+    "name": "程丽华(姨妈)",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.439481"
+  },
+  {
+    "id": 1767338591439,
+    "name": "唐建军",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.440660"
+  },
+  {
+    "id": 1767338591440,
+    "name": "程伟强(姨父)",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.441566"
+  },
+  {
+    "id": 1767338591441,
+    "name": "杨诗韵",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.441566"
+  },
+  {
+    "id": 1767338591441,
+    "name": "赵婉婷(堂妹)",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.441791"
+  },
+  {
+    "id": 1767338591441,
+    "name": "赵欣怡",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.441791"
+  },
+  {
+    "id": 1767338591442,
+    "name": "杨强",
+    "amount": 1900.0,
+    "amountChinese": "壹仟玖佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.442572"
+  },
+  {
+    "id": 1767338591442,
+    "name": "孙娜",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.442931"
+  },
+  {
+    "id": 1767338591442,
+    "name": "周宇航",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.443492"
+  },
+  {
+    "id": 1767338591443,
+    "name": "董宇航(朋友)",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.443581"
+  },
+  {
+    "id": 1767338591443,
+    "name": "梁桂兰(发小)",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.443581"
+  },
+  {
+    "id": 1767338591443,
+    "name": "王美玲",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.443581"
+  },
+  {
+    "id": 1767338591443,
+    "name": "刘雪(大姨)",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.443581"
+  },
+  {
+    "id": 1767338591443,
+    "name": "谢雨婷",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.444079"
+  },
+  {
+    "id": 1767338591444,
+    "name": "黄树林",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.444079"
+  },
+  {
+    "id": 1767338591444,
+    "name": "吴国庆",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.444450"
+  },
+  {
+    "id": 1767338591444,
+    "name": "陈强(弟弟)",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.444450"
+  },
+  {
+    "id": 1767338591444,
+    "name": "吴国强",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.444450"
+  },
+  {
+    "id": 1767338591444,
+    "name": "胡明轩",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.444450"
+  },
+  {
+    "id": 1767338591445,
+    "name": "郑志强",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.445485"
+  },
+  {
+    "id": 1767338591445,
+    "name": "何文静",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.445485"
+  },
+  {
+    "id": 1767338591445,
+    "name": "黄俊杰",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.445485"
+  },
+  {
+    "id": 1767338591445,
+    "name": "谢国栋",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.445485"
+  },
+  {
+    "id": 1767338591445,
+    "name": "林莉",
+    "amount": 1500.0,
+    "amountChinese": "壹仟伍佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.445485"
+  },
+  {
+    "id": 1767338591446,
+    "name": "何桂兰",
+    "amount": 2400.0,
+    "amountChinese": "贰仟肆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.446444"
+  },
+  {
+    "id": 1767338591446,
+    "name": "冯静",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "吴嘉怡",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "冯宇航(表哥)",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "孙子轩",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "李志明",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "宋丽华(舅妈)",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "郑嘉怡",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "赵浩然",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "朱浩然",
+    "amount": 1500.0,
+    "amountChinese": "壹仟伍佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "周建华",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591446,
+    "name": "林诗涵(妈妈)",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.446545"
+  },
+  {
+    "id": 1767338591447,
+    "name": "吴玲(婶婶)",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "刘志明",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "孙芳",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "吴博文",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "林建国",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "周树林",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "王秀兰",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591447,
+    "name": "冯天宇(叔父)",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.447441"
+  },
+  {
+    "id": 1767338591448,
+    "name": "刘思远",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "王子轩(公公)",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "朱琳",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "何海燕(阿姨)",
+    "amount": 1500.0,
+    "amountChinese": "壹仟伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "李梅",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "郭峰",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "孙海涛",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "唐飞",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.448440"
+  },
+  {
+    "id": 1767338591448,
+    "name": "冯杰",
+    "amount": 3800.0,
+    "amountChinese": "叁仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.449201"
+  },
+  {
+    "id": 1767338591449,
+    "name": "于博文(哥哥)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.449201"
+  },
+  {
+    "id": 1767338591449,
+    "name": "于龙",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.449374"
+  },
+  {
+    "id": 1767338591449,
+    "name": "郑斌",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591449,
+    "name": "郑雅琪(战友)",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591449,
+    "name": "谢梦琪",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591449,
+    "name": "吴欣怡(姑母)",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591449,
+    "name": "徐浩然",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591449,
+    "name": "刘倩(姐姐)",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591449,
+    "name": "马建华(二伯)",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.449436"
+  },
+  {
+    "id": 1767338591463,
+    "name": "程梦琪(表妹)",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "梁雅琪",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "宋文博",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "谢建国(爸爸)",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "刘桂兰(婆婆)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "马伟强",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "宋斌(岳父)",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "周军伟",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "谢国庆",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591463,
+    "name": "赵桂英(邻居)",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.463399"
+  },
+  {
+    "id": 1767338591464,
+    "name": "黄慧",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "罗杰",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "冯红",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "罗宇航",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "胡莉(战友)",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "李雨涵",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "胡秀兰",
+    "amount": 900.0,
+    "amountChinese": "玖佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "徐海燕",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "吴伟强",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "陈雅琪(岳母)",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "胡桂兰(战友)",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "谢海涛",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "胡红",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591464,
+    "name": "马涛",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.464396"
+  },
+  {
+    "id": 1767338591465,
+    "name": "宋志勇(邻居)",
+    "amount": 1500.0,
+    "amountChinese": "壹仟伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.465531"
+  },
+  {
+    "id": 1767338591465,
+    "name": "于美玲(表姐)",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.465531"
+  },
+  {
+    "id": 1767338591465,
+    "name": "郭国栋(战友)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.465531"
+  },
+  {
+    "id": 1767338591465,
+    "name": "吴俊杰",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.465531"
+  },
+  {
+    "id": 1767338591465,
+    "name": "杨晓燕",
+    "amount": 1200.0,
+    "amountChinese": "壹仟贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.465531"
+  },
+  {
+    "id": 1767338591466,
+    "name": "陈红",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.466096"
+  },
+  {
+    "id": 1767338591466,
+    "name": "董嘉怡(朋友)",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.466096"
+  },
+  {
+    "id": 1767338591466,
+    "name": "于晓东",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.466096"
+  },
+  {
+    "id": 1767338591466,
+    "name": "程建军",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.466391"
+  },
+  {
+    "id": 1767338591466,
+    "name": "王诗涵",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.466391"
+  },
+  {
+    "id": 1767338591466,
+    "name": "张琳",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.466391"
+  },
+  {
+    "id": 1767338591466,
+    "name": "吴文静",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.466391"
+  },
+  {
+    "id": 1767338591475,
+    "name": "张霞",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.477534"
+  },
+  {
+    "id": 1767338591477,
+    "name": "何秀珍",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "王慧",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "何明轩",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "罗伟强",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "罗静",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "胡小红",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "李雪(表姐)",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "马诗韵",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.477685"
+  },
+  {
+    "id": 1767338591477,
+    "name": "林晓燕",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.478530"
+  },
+  {
+    "id": 1767338591478,
+    "name": "郑金龙",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.478530"
+  },
+  {
+    "id": 1767338591478,
+    "name": "胡涛",
+    "amount": 2800.0,
+    "amountChinese": "贰仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.478530"
+  },
+  {
+    "id": 1767338591478,
+    "name": "董美玲",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.478530"
+  },
+  {
+    "id": 1767338591478,
+    "name": "陈秀兰",
+    "amount": 1000.0,
+    "amountChinese": "壹仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.479640"
+  },
+  {
+    "id": 1767338591479,
+    "name": "董志勇",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "谢诗涵",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "韩晓燕(伯母)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "梁金龙",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "梁志勇(三伯)",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "林晓东",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "李婉婷",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591479,
+    "name": "杨春梅(老师)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.479854"
+  },
+  {
+    "id": 1767338591480,
+    "name": "宋淑芬",
+    "amount": 200.0,
+    "amountChinese": "贰佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "罗淑芬",
+    "amount": 100.0,
+    "amountChinese": "壹佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "胡博文",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "张桂兰",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "陈洋",
+    "amount": 500.0,
+    "amountChinese": "伍佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "梁海燕",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "赵博文",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "梁诗涵",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "罗建华",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "何杰",
+    "amount": 1800.0,
+    "amountChinese": "壹仟捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "于淑芬",
+    "amount": 3000.0,
+    "amountChinese": "叁仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591480,
+    "name": "郭宇航",
+    "amount": 1500.0,
+    "amountChinese": "壹仟伍佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.480524"
+  },
+  {
+    "id": 1767338591481,
+    "name": "杨思远(伯伯)",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "胡英(姑姑)",
+    "amount": 600.0,
+    "amountChinese": "陆佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "马嘉怡",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "杨秀英(战友)",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "何天宇",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "未记录",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "唐小红",
+    "amount": 5000.0,
+    "amountChinese": "伍仟元整",
+    "paymentMethod": "现金",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "周俊杰",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "马俊杰",
+    "amount": 800.0,
+    "amountChinese": "捌佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "宋丽华",
+    "amount": 700.0,
+    "amountChinese": "柒佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.481523"
+  },
+  {
+    "id": 1767338591481,
+    "name": "于晓燕",
+    "amount": 2000.0,
+    "amountChinese": "贰仟元整",
+    "paymentMethod": "支付宝",
+    "timestamp": "2026-01-02T15:23:11.482519"
+  },
+  {
+    "id": 1767338591482,
+    "name": "朱俊杰(老师)",
+    "amount": 300.0,
+    "amountChinese": "叁佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.482743"
+  },
+  {
+    "id": 1767338591483,
+    "name": "程刚",
+    "amount": 900.0,
+    "amountChinese": "玖佰元整",
+    "paymentMethod": "微信",
+    "timestamp": "2026-01-02T15:23:11.483517"
+  }
+]

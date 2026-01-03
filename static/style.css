@@ -1,0 +1,831 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'STKaiti', 'KaiTi', 'Microsoft YaHei', serif;
+    background: linear-gradient(135deg, #D32F2F 0%, #C62828 50%, #B71C1C 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #FFF9E6;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(183, 28, 28, 0.3);
+    padding: 30px;
+    border: 3px solid #FFD700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px double #D32F2F;
+}
+
+header h1 {
+    color: #B71C1C;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(211, 47, 47, 0.3);
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* 按钮样式 */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #D32F2F 0%, #C62828 100%);
+    color: #FFD700;
+    border: 2px solid #FFD700;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #C62828 0%, #B71C1C 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(211, 47, 47, 0.4);
+}
+
+.btn-secondary {
+    background: #8B4513;
+    color: #FFD700;
+}
+
+.btn-secondary:hover {
+    background: #654321;
+    transform: translateY(-2px);
+}
+
+.btn-danger {
+    background: #C62828;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-danger:hover {
+    background: #B71C1C;
+}
+
+.btn-edit {
+    background: #FFA000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-edit:hover {
+    background: #FF8F00;
+}
+
+/* 参数设置面板 */
+.settings-panel {
+    background: #FFF3E0;
+    border: 2px solid #D32F2F;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.settings-panel h3 {
+    color: #B71C1C;
+    margin-bottom: 15px;
+}
+
+.settings-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.settings-content label {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8B4513;
+}
+
+.settings-content input[type="number"] {
+    padding: 8px;
+    border: 2px solid #D32F2F;
+    border-radius: 4px;
+    width: 80px;
+}
+
+.settings-content input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* 表单样式 */
+.input-section {
+    background: #FFF3E0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #FFD700;
+}
+
+.input-section h2 {
+    color: #B71C1C;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+#guestForm {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #D32F2F;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* 统计信息 */
+.summary-section-container {
+    margin-bottom: 20px;
+}
+
+.summary-toggle-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.summary-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #D32F2F 0%, #C62828 100%);
+    color: #FFD700;
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #FFD700;
+    gap: 15px;
+}
+
+.summary-item {
+    text-align: center;
+    min-width: 150px;
+}
+
+.summary-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    opacity: 0.95;
+}
+
+.summary-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.summary-unit {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* 分页控制 */
+.pagination-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.page-info {
+    font-size: 18px;
+    font-weight: bold;
+    color: #B71C1C;
+    min-width: 150px;
+    text-align: center;
+}
+
+/* 传统人情簿样式 */
+.traditional-book {
+    background: white;
+    border: 4px solid #D32F2F;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(183, 28, 28, 0.2);
+    position: relative;
+}
+
+.book-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #B71C1C;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px double #D32F2F;
+}
+
+/* 封面样式 */
+.book-cover {
+    position: absolute;
+    top: 30px; /* 覆盖整个内容区域 */
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background: white;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.names-row,
+.amounts-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 20px;
+    background: white;
+    overflow-x: auto;
+}
+
+.names-row {
+    border-bottom: none;
+}
+
+.amounts-row {
+    border-top: none;
+}
+
+.record-item-vertical {
+    flex: 1;
+    min-width: 50px;
+    padding: 25px 12px;
+    background: #FFF9E6;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 12px;
+    position: relative;
+}
+
+/* 姓名主体 */
+.name-main {
+    display: inline;
+}
+
+/* 姓名备注（括号内容） */
+.name-note {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    letter-spacing: 0;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2px 4px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 大写金额主体 */
+.amount-chinese {
+    display: inline;
+}
+
+/* 阿拉伯数字金额显示（在金额框中） */
+.amount-number {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    font-size: 12px;
+    color: #D32F2F;
+    font-weight: bold;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    letter-spacing: 0;
+    background: rgba(255, 249, 230, 0.95);
+    padding: 2px 6px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(211, 47, 47, 0.2);
+    border: 1px solid #FFD700;
+}
+
+.payment-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.record-item-vertical.empty {
+    background: #FAFAFA;
+    border: 1px dashed #CCC;
+}
+
+.divider-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    background: white;
+    padding: 10px;
+}
+
+.horizontal-divider {
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(90deg, #D32F2F 0%, #E91E63 50%, #D32F2F 100%);
+    position: relative;
+    border-radius: 2px;
+}
+
+.divider-text-horizontal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 15px 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #E91E63;
+    border: 3px solid #D32F2F;
+    border-radius: 50px;
+    letter-spacing: 20px;
+    padding-left: 40px;
+    box-shadow: 0 3px 10px rgba(211, 47, 47, 0.3);
+}
+
+/* 页面底部统计 */
+.page-totals-toggle-btn {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.page-totals {
+    margin-top: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
+    border: 3px solid #D32F2F;
+    border-radius: 10px;
+}
+
+.totals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.total-item {
+    text-align: center;
+    padding: 15px;
+    background: white;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+}
+
+.total-label {
+    font-size: 16px;
+    color: #8B4513;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.total-value {
+    font-size: 22px;
+    color: #B71C1C;
+    font-weight: bold;
+}
+
+.total-chinese {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* 记录列表（编辑模式） */
+.records-section h2 {
+    color: #B71C1C;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+#recordsTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 10px rgba(211, 47, 47, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #D32F2F;
+}
+
+#recordsTable thead {
+    background: linear-gradient(135deg, #D32F2F 0%, #C62828 100%);
+    color: #FFD700;
+}
+
+#recordsTable th,
+#recordsTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #FFE0B2;
+}
+
+#recordsTable th {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+#recordsTable td {
+    text-align: center;
+}
+
+#recordsTable tbody tr:hover {
+    background: #FFF3E0;
+}
+
+#recordsTable tbody tr:nth-child(even) {
+    background: #FFF9E6;
+}
+
+.total-row {
+    background: #FFE0B2 !important;
+    font-weight: bold;
+    color: #B71C1C;
+}
+
+.total-row td {
+    border-top: 3px solid #D32F2F;
+    padding: 15px 12px;
+}
+
+/* 汇总页面 */
+.summary-page {
+    margin-top: 20px;
+}
+
+.summary-page h2 {
+    color: #B71C1C;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+#summaryContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.summary-page-item {
+    border: 3px solid #D32F2F;
+    border-radius: 10px;
+    padding: 20px;
+    background: #FFF9E6;
+}
+
+.summary-page-item h3 {
+    color: #B71C1C;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFD700;
+}
+
+.summary-page-item table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 10px;
+}
+
+.summary-page-item table th,
+.summary-page-item table td {
+    padding: 10px;
+    border: 1px solid #FFE0B2;
+    text-align: center;
+}
+
+.summary-page-item table th {
+    background: linear-gradient(135deg, #D32F2F 0%, #C62828 100%);
+    color: #FFD700;
+}
+
+.summary-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #D32F2F;
+    border: 2px solid #FFD700;
+}
+
+.stat-card .label {
+    color: #8B4513;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.stat-card .value {
+    color: #B71C1C;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 导入文件区域 */
+.import-section {
+    background: #FFF3E0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #D32F2F;
+}
+
+.import-section h3 {
+    color: #B71C1C;
+    margin-bottom: 15px;
+}
+
+.import-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#importFile {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #D32F2F;
+    border-radius: 5px;
+    background: white;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+    .totals-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .record-item-vertical {
+        font-size: 24px;
+        min-height: 220px;
+        letter-spacing: 10px;
+    }
+
+    .payment-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .name-note {
+        font-size: 12px;
+        bottom: 6px;
+        right: 6px;
+        padding: 1px 3px;
+    }
+
+    .amount-number {
+        font-size: 10px;
+        bottom: 6px;
+        left: 6px;
+        padding: 2px 5px;
+    }
+
+    .book-cover {
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    #guestForm {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .summary-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #recordsTable {
+        font-size: 14px;
+    }
+
+    #recordsTable th,
+    #recordsTable td {
+        padding: 8px 4px;
+    }
+
+    .traditional-book {
+        padding: 15px;
+    }
+
+    .names-row,
+    .amounts-row {
+        gap: 6px;
+        padding: 10px;
+    }
+
+    .record-item-vertical {
+        font-size: 20px;
+        padding: 20px 8px;
+        min-height: 180px;
+        letter-spacing: 8px;
+        min-width: 40px;
+    }
+
+    .payment-icon {
+        width: 22px;
+        height: 22px;
+        top: 6px;
+        right: 6px;
+    }
+
+    .name-note {
+        font-size: 10px;
+        bottom: 4px;
+        right: 4px;
+        padding: 1px 2px;
+    }
+
+    .amount-number {
+        font-size: 8px;
+        bottom: 4px;
+        left: 4px;
+        padding: 1px 4px;
+    }
+
+    .divider-text-horizontal {
+        font-size: 24px;
+        letter-spacing: 15px;
+        padding: 10px 20px;
+        padding-left: 30px;
+    }
+
+    .book-cover {
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+/* 打印样式 */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .container {
+        box-shadow: none;
+        padding: 10px;
+        border: none;
+    }
+
+    .input-section,
+    .pagination-section,
+    .header-actions,
+    .btn,
+    .import-section,
+    .summary-toggle-btn,
+    .page-totals-toggle-btn {
+        display: none !important;
+    }
+
+    .traditional-book {
+        border: 2px solid #000;
+    }
+
+    .summary-section,
+    .page-totals {
+        /* 打印时显示汇总信息 */
+        display: flex !important;
+    }
+
+    .page-totals {
+        /* 打印时显示本页汇总 */
+        display: block !important;
+    }
+
+    .book-cover {
+        /* 打印时保持封面显示状态 */
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .page-totals {
+        page-break-before: avoid;
+    }
+}

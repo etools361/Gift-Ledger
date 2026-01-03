@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嘉宾礼簿管理系统</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>嘉宾礼簿管理系统</h1>
+            <div class="header-actions">
+                <button id="openFileBtn" class="btn btn-secondary">从Excel加载</button>
+                <button id="settingsBtn" class="btn btn-secondary">参数设置</button>
+                <button id="importBtn" class="btn btn-primary">导入数据</button>
+                <button id="exportBtn" class="btn btn-primary">导出Excel</button>
+                <button id="exportPrintBtn" class="btn btn-primary">导出打印页</button>
+            </div>
+        </header>
+
+        <!-- 参数设置面板 -->
+        <div id="settingsPanel" class="settings-panel hidden">
+            <h3>参数设置</h3>
+            <div class="settings-content">
+                <label>
+                    每页记录数：
+                    <input type="number" id="recordsPerPage" value="12" min="1" max="50">
+                </label>
+                <button id="saveSettings" class="btn btn-primary">保存设置</button>
+                <button id="closeSettings" class="btn btn-secondary">关闭</button>
+            </div>
+        </div>
+
+        <!-- 导入数据面板 -->
+        <div id="importPanel" class="import-section hidden">
+            <h3>导入数据</h3>
+            <div class="import-actions">
+                <input type="file" id="importFile" accept=".xlsx,.xls,.json">
+                <button id="confirmImport" class="btn btn-primary">确认导入</button>
+                <button id="closeImport" class="btn btn-secondary">关闭</button>
+            </div>
+            <p style="margin-top: 10px; color: #8B4513; font-size: 14px;">
+                支持导入Excel文件（.xlsx, .xls）和JSON文件。Excel文件需包含"姓名"、"礼金"、"支付方式"列。
+            </p>
+        </div>
+
+        <!-- 数据录入表单 -->
+        <section class="input-section">
+            <h2>添加记录</h2>
+            <form id="guestForm">
+                <div class="form-group">
+                    <label for="guestName">姓名：</label>
+                    <input type="text" id="guestName" required placeholder="请输入姓名">
+                </div>
+                <div class="form-group">
+                    <label for="giftAmount">礼金（元）：</label>
+                    <input type="number" id="giftAmount" required placeholder="请输入金额" step="0.01" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">支付方式：</label>
+                    <select id="paymentMethod" required>
+                        <option value="">请选择</option>
+                        <option value="现金">现金</option>
+                        <option value="微信">微信</option>
+                        <option value="支付宝">支付宝</option>
+                        <option value="未记录">未记录</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">添加记录</button>
+            </form>
+        </section>
+
+        <!-- 传统人情簿显示 -->
+        <section id="traditionalView" class="traditional-book">
+            <div id="bookTitle" class="book-title hidden">人情簿 - 第 <span id="currentPageNum">1</span> 页</div>
+
+            <!-- 封面 -->
+            <div id="bookCover" class="book-cover">
+                <img src="{{ url_for('static', filename='top.jpg') }}" alt="封面" class="cover-image">
+            </div>
+
+            <div class="book-content">
+                <!-- 上方姓名栏（竖排） -->
+                <div class="names-row" id="namesRow">
+                    <!-- 动态生成12个竖排姓名 -->
+                </div>
+
+                <!-- 中间分割线 -->
+                <div class="divider-row">
+                    <div class="horizontal-divider"></div>
+                    <div class="divider-text-horizontal">礼金</div>
+                </div>
+
+                <!-- 下方金额栏（竖排） -->
+                <div class="amounts-row" id="amountsRow">
+                    <!-- 动态生成12个竖排金额大写 -->
+                </div>
+            </div>
+
+            <!-- 页面金额统计 -->
+            <button id="togglePageTotalsBtn" class="btn btn-secondary page-totals-toggle-btn">展开本页汇总</button>
+            <div id="pageTotals" class="page-totals hidden">
+                <div class="totals-grid">
+                    <div class="total-item">
+                        <div class="total-label">移动支付总计</div>
+                        <div class="total-value" id="mobileTotalValue">0.00 元</div>
+                        <div class="total-chinese" id="mobileTotalChinese">零元整</div>
+                    </div>
+                    <div class="total-item">
+                        <div class="total-label">现金支付总计</div>
+                        <div class="total-value" id="cashTotalValue">0.00 元</div>
+                        <div class="total-chinese" id="cashTotalChinese">零元整</div>
+                    </div>
+                    <div class="total-item">
+                        <div class="total-label">本页总计</div>
+                        <div class="total-value" id="pageTotalValue">0.00 元</div>
+                        <div class="total-chinese" id="pageTotalChinese">零元整</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 编辑模式列表 -->
+        <section id="editView" class="records-section hidden">
+            <h2>编辑模式 <span id="pageTitle"></span></h2>
+            <table id="recordsTable">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>礼金/元</th>
+                        <th>礼金/大写</th>
+                        <th>支付方式</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="recordsBody">
+                    <!-- 动态生成 -->
+                </tbody>
+                <tfoot>
+                    <tr class="total-row">
+                        <td colspan="2">本页小计</td>
+                        <td id="pageTotal">0.00</td>
+                        <td id="pageTotalChinese2">零元整</td>
+                        <td colspan="2"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- 分页控制 -->
+        <section class="pagination-section">
+            <button id="prevPage" class="btn btn-secondary">上一页</button>
+            <span id="pageInfo" class="page-info">第 1 页，共 1 页</span>
+            <button id="nextPage" class="btn btn-secondary">下一页</button>
+            <button id="editModeBtn" class="btn btn-primary">编辑模式</button>
+            <button id="toggleCoverBtn" class="btn btn-secondary">隐藏封面</button>
+            <button id="toggleAmountInNameBtn" class="btn btn-secondary">显示金额</button>
+        </section>
+
+        <!-- 统计信息 -->
+        <section class="summary-section-container">
+            <button id="toggleSummaryBtn" class="btn btn-secondary summary-toggle-btn">展开汇总信息</button>
+            <section id="summarySection" class="summary-section hidden">
+                <div class="summary-item">
+                    <span class="summary-label">总记录数：</span>
+                    <span id="totalRecords" class="summary-value">0</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">微信总金额：</span>
+                    <span id="totalWeixinAmount" class="summary-value">0.00</span>
+                    <span class="summary-unit">元</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">现金总金额：</span>
+                    <span id="totalCashAmount" class="summary-value">0.00</span>
+                    <span class="summary-unit">元</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">总金额：</span>
+                    <span id="totalAmount" class="summary-value">0.00</span>
+                    <span class="summary-unit">元</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">总金额大写：</span>
+                    <span id="totalAmountChinese" class="summary-value">零元整</span>
+                </div>
+            </section>
+        </section>
+
+        <!-- 汇总页面 -->
+        <section id="summaryPage" class="summary-page hidden">
+            <h2>汇总报表</h2>
+            <button id="closeSummary" class="btn btn-secondary">返回记录</button>
+            <div id="summaryContent">
+                <!-- 动态生成汇总内容 -->
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
